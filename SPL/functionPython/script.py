@@ -1,14 +1,19 @@
 import random
 
-n = 0
 
-while True:
-    i = random.randint(10,30)
-    print("Zufallszahl:",i)
 
-    if i == 15 or i == 25:
-        break
+i = random.randint(100,200)
 
-    n += i 
+n = 1
 
-print("Summe:", n)
+sum = i + n
+
+print(sum)
+
+
+zufahlswort = ["hans", "peter", "sus"]
+z = random.choice(zufahlswort)
+
+print(z)
+
+
